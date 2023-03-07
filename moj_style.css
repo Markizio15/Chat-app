@@ -1,0 +1,99 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    margin: 40px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: rgb(255, 242, 242);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+#container-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: -410px;
+}
+
+.logo {
+    text-align: center;
+    font-style: italic;
+}
+
+.members-count,
+.members-list {
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(54, 58, 67);
+}
+
+.members-count {
+    height: 30px;
+    color: bisque;
+}
+
+.members-list {
+    height: 310px;
+    overflow: auto;
+}
+
+.messages {
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    height: 376px;
+    width: 1150px;
+    background-color: rgb(54, 58, 67);
+    overflow: auto;
+    flex-shrink: 1;
+    color: aliceblue;
+}
+
+div.message-recv {
+    margin: 10px;
+}
+
+div.message-send {
+    text-align: right;
+    margin: 10px;
+}
+
+.message-form {
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+
+.message-form__input {
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid grey;
+    padding-left: 10px;
+}
+
+.message-form__button {
+    margin-left: 10px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px grey solid;
+    transition-duration: 0.5s;
+}
+
+.message-form__button:hover {
+    background-color: rgb(54, 58, 57);
+    color: azure;
+}
+
+.member {
+    padding-top: 5px;
+}
